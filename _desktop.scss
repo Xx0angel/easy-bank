@@ -1,0 +1,98 @@
+@media (min-width: 1000px) {
+    // .navigation {
+    //     position: relative;
+    //     z-index: 1;
+    //     .navigation__container {
+    //         width: 100%;
+    //     }
+    // }
+    .presentation {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        min-height: 600px;
+        width: 100%;
+        .presentation__background {
+            min-height: 600px;
+            width: 100%;
+            overflow: visible;
+            .presentation__bg-intro {
+                width: 100%;
+                right: -10%;
+                top: -10vh;
+                overflow: visible;
+            }
+            .presentation__bg-mockups {
+                width: 600px;
+                top: 0vh;
+                left: 20%;
+                z-index: 2;
+            }
+        }
+    }
+
+    // ** Services section ** //
+    .services {
+        min-height: 700px;
+    }
+
+    .services__ofert {
+        width: 90%;
+        text-align: left;
+        .services__ofert-title {
+            width: 50%;
+        }
+        .services__ofert-description {
+            width: 50%;
+        }
+    }
+
+    .services__list {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 0 3em 0;
+        display: flex;
+        flex-wrap: wrap;
+        .services__item {
+            padding: 0 1em;
+            width: 25%;
+        }
+    }
+    // ** Blog Section ** //
+    .blog__cards {
+        width: 90%;
+        margin: 2em auto 0 auto;
+
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .blog__card {
+            width: calc(90% / 4);
+            margin: 0 0.5em;
+        }
+    }
+
+    // ** Footer Section ** //
+    .footer__container {
+        display: flex;
+    }
+    .footer__sociales {
+        flex-direction: column;
+        width: 30%;
+        margin: 2em 0;
+        padding: 0;
+    }
+    .footer__menu {
+        width: 50%;
+        justify-content: flex-start;
+        .footer__list {
+            margin-right: 3em;
+            
+        }
+    }
+    .footer__copyright {
+        width: 20%;
+    }
+}

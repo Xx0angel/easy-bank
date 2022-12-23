@@ -1,0 +1,72 @@
+@media (min-width: 600px) {
+    // ** Presentatio ** // 
+    .presentation {
+        .presentation__background {
+            .presentation__bg-intro {
+                width: 70%;
+                right: -10%;
+            }
+            .presentation__bg-mockups {
+                top: -130px;
+                left: 5%;
+            }
+        }
+    }
+    // ** Services ** // 
+    
+    
+    .services__list {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 0 3em 0;
+        display: flex;
+        flex-wrap: wrap;
+        .services__item {
+            margin: 1em 0;
+            padding: 0 1em;
+            width: 50%;   
+        }
+    }    
+
+    // ** Blog Section ** // 
+    .blog__cards {
+        width: 90%;
+        margin: 2em auto 0 auto;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .blog__card{
+            width: 45%;
+        }
+    }
+
+    // ** Footer Section ** // 
+    .footer__sociales{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .footer__menu{
+        margin: 2em 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 800px) {
+    // ** Header ** //
+    .navigation {
+       
+        .button-nav{
+            display: none;
+        }
+    
+        .navigation__menu-buttoms {
+            display: inline;
+        }
+    }
+}

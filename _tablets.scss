@@ -58,9 +58,14 @@
 
 @media (max-width: 600px) {
     .presentation__description {
+        text-align: center;
         .presentation__cta {
             width: 80%;
+            .presentation__description-title{
+                font-size: 2rem;
+            }
         }
+        
     }
 }
 

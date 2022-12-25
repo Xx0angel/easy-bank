@@ -109,7 +109,7 @@ main {
     }
 
     .navigation__menu-buttom {
-        .close{
+        .close {
             display: none;
         }
     }
@@ -148,7 +148,6 @@ main {
     width: 100%;
     margin: 0 auto;
     height: auto;
-    // background-color: pink;
     font-family: $font__publicsans;
     text-align: left;
     padding: 0 0 3em 0;
@@ -178,7 +177,6 @@ main {
 
 .services__ofert {
     width: 80%;
-    // background-color: pink;
     margin: 0 auto;
     padding: 3em 0;
     font-family: $font__publicsans;
@@ -252,7 +250,7 @@ main {
         background: $white;
         text-align: left;
         margin: 2em 0;
-        .card__img-box{
+        .card__img-box {
             width: 100%;
             height: 190px;
             .blog__card-img {
@@ -265,7 +263,7 @@ main {
                 -o-border-radius: 10px;
             }
         }
-        
+
         .blog__card-redactor {
             padding: 0 25px;
             font-size: 0.6em;
@@ -278,6 +276,15 @@ main {
             font-weight: 700;
             color: $dark__blue;
             margin-bottom: 0.5em;
+            transition: 500ms ease-in-out;
+            -webkit-transition: 500ms ease-in-out;
+            -moz-transition: 500ms ease-in-out;
+            -ms-transition: 500ms ease-in-out;
+            -o-transition: 500ms ease-in-out;
+            cursor: pointer;
+            &:hover {
+                color: $lime__green;
+            }
         }
         .blog__card-text {
             padding: 0 25px;

@@ -301,6 +301,16 @@ main {
   font-weight: 700;
   color: #2d314d;
   margin-bottom: 0.5em;
+  transition: 500ms ease-in-out;
+  -webkit-transition: 500ms ease-in-out;
+  -moz-transition: 500ms ease-in-out;
+  -ms-transition: 500ms ease-in-out;
+  -o-transition: 500ms ease-in-out;
+  cursor: pointer;
+}
+
+.blog__cards .blog__card .blog__card-title:hover {
+  color: #31d35c;
 }
 
 .blog__cards .blog__card .blog__card-text {
@@ -469,8 +479,14 @@ main {
 }
 
 @media (max-width: 600px) {
+  .presentation__description {
+    text-align: center;
+  }
   .presentation__description .presentation__cta {
     width: 80%;
+  }
+  .presentation__description .presentation__cta .presentation__description-title {
+    font-size: 2rem;
   }
 }
 

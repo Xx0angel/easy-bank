@@ -1,11 +1,9 @@
 @media (min-width: 1000px) {
-    // .navigation {
-    //     position: relative;
-    //     z-index: 1;
-    //     .navigation__container {
-    //         width: 100%;
-    //     }
-    // }
+    .navigation {
+        .navigation__menu-buttom {
+            display: none;
+        }
+    }
     .presentation {
         display: flex;
         flex-direction: row-reverse;

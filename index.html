@@ -47,13 +47,13 @@
             </ul>
         </nav>
 
-        <a href="" class="button-nav">
+        <a href="" class="button__link button__nav">
             <p class="button">Request invite</p>
         </a>
 
-        <div class="navigation__menu-buttoms">
-            <img class="navigation__burguer" src="./images/icon-hamburger.svg" alt="Abrir Menu">
-            <img src="" alt="">
+        <div class="navigation__menu-buttom">
+            <img id="openMenu" class="navigation__burguer" src="./images/icon-hamburger.svg" alt="Abrir Menu">
+            <img id="closeMenu" class="navigation__burguer-close close" src="./images/icon-close.svg" alt="Cerrar Menu">
         </div>
     </header>
 
@@ -65,14 +65,16 @@
                 <img class="presentation__bg-mockups" src="./images/image-mockups.png" alt="Mockuo de telefonos">
             </div>
             <div class="presentation__description">
-                <h2 class="presentation__description-title">Next generation <br> digital banking</h2>
-                <p class="presentation__description-text">
-                    Take your financial online. Your EasyBank account<br> will be a one-stop-shop for spending,
-                    saving,<br> budgeting, investing, and much more.
-                </p>
-                <a href="">
-                    <p class="button">Request invite</p>
-                </a>
+                <div class="presentation__cta">
+                    <h2 class="presentation__description-title">Next generation digital banking</h2>
+                    <p class="presentation__description-text">
+                        Take your financial online. Your EasyBank account will be a one-stop-shop for spending,
+                        saving, budgeting, investing, and much more.
+                    </p>
+                    <a class="button__link" href="">
+                        <p class="button">Request invite</p>
+                    </a>
+                </div>
             </div>
         </div>
 
@@ -214,13 +216,15 @@
                 </ul>
             </div>
             <div class="footer__copyright">
-                <a href="">
-                    <p class="copyright__button button">Request invite</p>
+                <a class="button__link" href="">
+                    <p class="button">Request invite</p>
                 </a>
                 <h2 class="copyright">EasyBank. All Rights Reserved</h2>
             </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

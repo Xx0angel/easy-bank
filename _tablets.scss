@@ -1,5 +1,5 @@
 @media (min-width: 600px) {
-    // ** Presentatio ** // 
+    // ** Presentatio ** //
     .presentation {
         .presentation__background {
             .presentation__bg-intro {
@@ -12,9 +12,8 @@
             }
         }
     }
-    // ** Services ** // 
-    
-    
+    // ** Services ** //
+
     .services__list {
         width: 90%;
         margin: 0 auto;
@@ -24,11 +23,11 @@
         .services__item {
             margin: 1em 0;
             padding: 0 1em;
-            width: 50%;   
+            width: 50%;
         }
-    }    
+    }
 
-    // ** Blog Section ** // 
+    // ** Blog Section ** //
     .blog__cards {
         width: 90%;
         margin: 2em auto 0 auto;
@@ -36,37 +35,67 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        .blog__card{
+        .blog__card {
             width: 45%;
         }
     }
 
-    // ** Footer Section ** // 
-    .footer__sociales{
+    // ** Footer Section ** //
+    .footer__sociales {
         display: flex;
         justify-content: space-between;
         flex-direction: row;
         width: 90%;
         margin: 0 auto;
     }
-    
-    .footer__menu{
+
+    .footer__menu {
         margin: 2em 0;
         display: flex;
         justify-content: space-evenly;
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
+    .presentation__description {
+        .presentation__cta {
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
     // ** Header ** //
     .navigation {
-       
-        .button-nav{
+        .button__nav {
             display: none;
         }
-    
-        .navigation__menu-buttoms {
-            display: inline;
+        .navigation__menu {
+            position: absolute;
+            top: 125%;
+            left: 5%;
+            background-color: white;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            height: 40vh;
+            padding: 1rem;
+            justify-content: space-evenly;
+            width: 90%;
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            transition: all 0.2s linear;
+            -webkit-transition: all 0.2s linear;
+            -moz-transition: all 0.2s linear;
+            -ms-transition: all 0.2s linear;
+            -o-transition: all 0.2s linear;
+            .navigation__list {
+                flex-direction: column;
+            }
+        }
+        .active {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
         }
     }
 }
